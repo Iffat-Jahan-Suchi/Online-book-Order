@@ -1,8 +1,8 @@
 <!-- navbar-->
-<header class="header fixed-top">
+<header class="header">
 
 
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg sticky-top">
       {{-- container --}}
       <div class="container">
           {{-- Brand Logo --}}

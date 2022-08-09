@@ -5,12 +5,12 @@
   About Us
 @endsection
 
-@section('additional_script')
-  <link rel="stylesheet" href="{{asset('public_user/css/about-us.css')}}" type="text/css">
+@section('addition-styles')
+  <link rel="stylesheet" href="{{asset('css/custom/about_us.css')}}" type="text/css">
   <style media="screen">
     .aboutus-image-baner {
       /* background:  linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("{{ asset('public_user/images/aboutus-baner.jpeg') }}"); */
-      background: url("{{ asset('public_user/images/akash.jgp') }}");
+      background: url("{{ asset('public_user/images/aboutus-baner.jpeg') }}");
       min-height: 320px;
       background-repeat: no-repeat;
       background-size: cover;

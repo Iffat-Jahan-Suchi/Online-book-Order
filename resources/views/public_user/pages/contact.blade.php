@@ -6,7 +6,7 @@
 @endsection
 
 
-@section('additional_script')
+@section('addition-styles')
   <link rel="stylesheet" href="{{ asset('public_user/css/contact-us.css') }}" type="text/css">
 @endsection
 
